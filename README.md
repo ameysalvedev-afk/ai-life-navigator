@@ -54,8 +54,7 @@ def detect_intent(user_input: str):
         return "todo_add"
     if "career" in u or "learn" in u and ("ml" in u or "ai" in u):
         return "career_tip"
-    if "export memory" in u:
-        return "export_memory"
+    
     return "clarify"
 
 # ---------------------------
