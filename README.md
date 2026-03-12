@@ -8,7 +8,7 @@ Minimal CLI prototype for AI Life Navigator.
 - Has Controller + 4 micro-agents (prompts from the library)
 - Uses a simulated LLM by default (no API key needed)
 - To use a real OpenAI-style API, set OPENAI_API_KEY and uncomment the call_llm_with_api function
-"""
+""
 
 import json
 import os
